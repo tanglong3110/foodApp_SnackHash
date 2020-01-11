@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.food_app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_snackhash"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/netword_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FragmentADMIN.Main_ListHDCT_TRANGTHAI_CONFIRM_B_MAHD"></activity>
+        <activity android:name=".FragmentADMIN.Main_ListHoaDon_DONE" />
+        <activity android:name=".FragmentADMIN.Main_ListHDCT_B_MAHD" />
+        <activity android:name=".FragmentUSER.MainDocBaoWEB" />
+        <activity android:name=".FragmentUSER.MainDocBao" />
+        <activity android:name=".FragmentADMIN.MainListSanPham" />
+        <activity android:name=".FragmentUSER.GioHangMain" />
+        <activity android:name=".FragmentADMIN.ToiADMIN_Main" />
+        <activity android:name=".ADMain" />
+        <activity android:name=".UserMain" />
+        <activity android:name=".RegisterMain" />
+        <activity android:name=".LoginMain" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

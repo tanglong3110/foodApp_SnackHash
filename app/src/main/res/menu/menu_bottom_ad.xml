@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_quanly"
+        android:title="Quản lý"
+        android:icon="@drawable/ic_quanly" />
+
+    <item
+        android:id="@+id/nav_sanpham"
+        android:title="Sản phẩm"
+        android:icon="@drawable/ic_sanpham"/>
+
+    <item
+        android:id="@+id/nav_thongke"
+        android:title="Thống kê"
+        android:icon="@drawable/ic_lthongke"/>
+
+
+
+</menu>
